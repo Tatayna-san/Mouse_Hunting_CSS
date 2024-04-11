@@ -1,0 +1,96 @@
+.game__header {
+    background-color: #191e39;
+    border-bottom: 2px solid #465298;
+}
+.game-page {
+    border-right: 2px solid #5462b7;
+    background-color: #262d56;
+}
+.game-display {
+    background-color: #12162b;
+    filter: brightness(0.9);
+}
+body {
+    background-color: #262d56;
+}
+.game__header__menu li:nth-child(2n + 1) {
+    background-color: #353f7a66;
+}
+.code-area__numbers {
+    background-color: #060710;
+}
+.code-area {
+    border: 1px solid #4653a0;
+}
+.code-area__write {
+    background-color: #3b3b3b;
+    color: white;
+}
+.button-next {
+    background-color: #4358d7;
+}
+.game-page__menu-level {
+    background-color: #1a1f3b;
+    border: 6px solid #4653a0;
+}
+.game-menu-item {
+    background-color: #3b4681;
+}
+.game-menu-item.select {
+    border: 3px solid #90a0fd;
+    background-color: #4459d0;
+}
+.text-container {
+    background-color: #151930;
+    color: white;
+}
+.big-button, .medium-button, .big-border-button {
+    border: 3px solid #90a0fd;
+    background-color: #4459d0;
+}
+.invite__card {
+    background-color: #5e6dcc;
+}
+.auth-page form {
+    background-color: #161a2d;
+    color: white;
+    border: 2px solid #5462b4;
+}
+.auth-page input:not(input[type="radio"]), .auth-page button {
+    background-color: #424242;
+    border: 2px solid #797979;
+    color: white;
+}
+.auth-page button[type="submit"] {
+    border: 2px solid #90a0fd;
+    background-color: #4459d0;
+}
+.userpage__left {
+    border-right: 2px solid #5462b7;
+    background-color: #30396c;
+}
+.userpage__left__menu__item {
+    border-top: 2px solid #5e6dcc;
+}
+.userpage__left__menu__item:hover {
+    background-color: #5e6dcc;
+}
+.userpage__left__menu li:last-child .userpage__left__menu__item {
+    border-bottom: 2px solid #5e6dcc;
+}
+.notification__card {
+    background-color: #5e6dcc;
+    border-left: 10px solid #404981;
+}
+.notification__card.nochecked {
+    border-left: 10px solid #bdc6ff;
+}
+.progress_circle {
+    background-color: #224752;
+}
+.progress_circle::before {
+    background-color: #262d56;
+}
+.student__card {
+    background-color: #5e6dcc;
+}
