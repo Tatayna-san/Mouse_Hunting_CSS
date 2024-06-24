@@ -6,6 +6,7 @@
     }
     $levels_json = json_encode($levels, JSON_UNESCAPED_UNICODE);
 ?>
+<script src="/scripts/script.js"></script>
 <script>
     let levelselect = <?php if (isset($_GET["level"])) {echo $_GET["level"];} else {echo 1;}?>;
     let group = <?php if (isset($_GET["group"])) {echo $_GET["group"];} else {echo 1;}?>;
@@ -62,7 +63,7 @@
                 </div>
             </div>
             <div class="game-page__links">
-                <p>Игра Mouse Hunting CSS создана "..." Нужно заполнить текстом</p>
+                <p>Игра Mouse Hunting CSS - это образовательная платформа, созданная для обучения CSS Flexbox</p>
             </div>
         </div>
         <div class="game-display">
@@ -70,4 +71,3 @@
         </div>
         </div>
     </div>
-    <script src="/scripts/script.js"></script>

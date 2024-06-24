@@ -20,5 +20,4 @@ if (isset($_SESSION['ID'])) {
     } else {
         mysqli_query($sql, "INSERT INTO `h_saves`(`level`, `level_group`, `id_user`, `answer`, `complete`) VALUES ('$level','$group','$userid','$data',$complete)");
     }
-    //
 }
